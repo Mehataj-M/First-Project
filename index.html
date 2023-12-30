@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample website</title>
+  <!--title logo inclusion-->
+  <link href="images\f.jpg" class="logo" rel="icon" />
+
+  <!--stylesheet inclusion-->
+  <link rel="stylesheet" href="style/sample.css" />
+  
+  <!--font roboto inclusion-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+
+  <!--logos inclusion-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--animation on scroll-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+</head>
+<body>
+  <section id="pre-header">
+    <div class="date-info">
+      <i class="icon fa-regular fa-clock" style="color:#0f2e82d9; font-size: 20px;" ></i>Monday-Saturday, <span style="color:crimson; font-weight: 700;">9AM to 6PM</span>
+    </div>
+    <div class="ph-info">
+      <i class="fa-solid icon fa-mobile-screen" style="color: #0f2e82d9; font-size: 20px;"></i>Call us now <span style="color:crimson; font-weight: 700;">91-9994846000</span>
+    </div>
+  </section>
+  <header class="header">
+    <div class="header-div">
+      <div class="company-logo">
+        <img src="images\f.jpg" class="logo"/>
+        <p class="name">Fruit Fiesta</p>
+      </div>
+      <div class="list" >
+          <ul>  
+            <li class="menu"><a class="menu-name" href="#cauro">Home</a></li> 
+            <li class="menu"><a class="menu-name" href="#about">About</a></li>
+            <li class="menu"><a class="menu-name" href="#services">Product</a></li>
+            <li class="menu"><a class="menu-name" href="#pro-menu">menu</a></li>
+            <li class="menu"><a class="menu-name" href="#contact">Contact</a></li>
+          </ul> 
+      </div>
+          <input type="text" name="search" class="search" placeholder="search your drink"><i class="fa-solid fa-magnifying-glass search-icon"></i>
+      <div class="ord-btn">
+        <a href="" class="menu-btn">sign-in</a>
+      </div>
+    </div>
+  </header>
+  <main class="main">   
+    <section id="cauro">
+      <div class="slide">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images\pic4.jpg" class="car-img d-block w-100" alt="slide1">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="car-heading">Welcome to <span class="abt-title">Fruit Fiesta !</span> </h2>
+                <p class="car-info">Indulge in the vibrant world of flavors at flavour fiesta. Each sip is a journey, and we're here to make it refreshing, delicious, and unforgettable. #SipToCelebrate </p>
+                <a href="#about" class="more">Learn more</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images\pic3.jpeg" class="car-img d-block w-100" alt="slide1">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="car-heading">From Orchard to Cup</h2>
+                <p class="car-info">Our commitment to freshness starts in the orchards. Explore the journey of handpicked, locally-sourced fruits transformed into pure liquid delight.  #NatureInEverySip</p>
+                <a href="#services" class="more">Learn more</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images\caurosel4.webp" class="car-img d-block w-100" alt="slide3">
+              <div class="carousel-caption d-none d-md-block">
+                <h2 class="car-heading">Crafted with Love 
+                </h2>
+                <p class="car-info">Meet our passionate team of juicers and mixologists who turn nature's bounty into exquisite blends. Every cup is a masterpiece crafted with care and dedication.   #ArtOfJuicing</p>
+                <a href="#pro-menu" class="more">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h2 class="abt-heading">About Us</h2>
+      <div class="abt">
+        <div class="abt-info">
+          <h3 class="abt-info-title"> Step into the world Where The Flavor Meets Freshness! - <span style="color: crimson;"> Fruit Fiesta </span>
+          </h3>
+          <br>
+          <p class="abt-cap">
+            we believe in the transformative power of nature's goodness and the refreshing burst of flavors that only the finest fruits and ingredients can provide. Established with a passion for promoting a healthier lifestyle, our juice shop is a haven for those who appreciate the harmonious blend of taste and well-being. </p>
+          <ul>
+            <li class="abt-icon"><b>Freshness Guaranteed:</b> We source the freshest, locally-sourced fruits to ensure that every sip is a celebration of natural goodness.</li>
+            <li class="abt-icon"><b>Crafted with Care:</b> Our skilled team of juicers and mixologists artfully blend flavors to create a symphony of tastes that cater to diverse palates</li>
+            <li class="abt-icon"><b>Health at the Core:</b> We prioritize your well-being. Our juices are not just delicious; they are packed with essential nutrients, vitamins, and antioxidants to boost your vitality.</li>
+          </ul>
+          
+        </div>
+        <div class="abt-img" >
+          <img src="images\flex3.png" alt="img-fluid" class=" vert-move"  >
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <h2 class="serv-box-heading">Products</h2>
+      <p class="serv-title">Take A Look On The Flavorful World! And Explore Our Premium Juices</p>
+      <div class="service-box">
+        <div class="com fresh" data-aos="fade-up">
+          <h1 class="service-heading f-heading">Fresh Juice</h1>
+          <img src="images\fresh2.jpg" class="service-img" alt="fresh"/>
+          <p class="service-info">Vibrant and invigorating beverage crafted from ripe, natural fruits. Bursting with vitamins, minerals and a wholesome alternative to processed drinks. </p>
+          <a href="#pro-menu" class="service-more">View</a>
+        </div>
+        <div class="com mixed" data-aos="fade-right">
+          <h1 class="service-heading m-heading">Mixed Blends</h1>
+          <img src="images\mixed.jpg" class="service-img" alt="mixed"/>
+          <p class="service-info"> A delightful fusion of various fruits, captures the essence of different fruits, offering a symphony of tastes in every sip. 
+          nutritious option in a single, wholesome drink.
+          </p>
+          <a href="#pro-menu" class="service-more">View</a>
+        </div>
+        <div class="com smooth" data-aos="fade-up">
+          <h1 class="service-heading s-heading">Smoothies</h1>
+          <img src="images\smooth.jpg" class="service-img" alt="smooth"/>
+          <p class="service-info">
+            delicious beverages made by blending a variety of fruits with a creamy base of yogurt or milk. With customizable options like adding greens or protein, satisfying choice for a  health.
+          </p>
+          <a href="#pro-menu" class="service-more">View</a>        
+        </div>
+        <div class="com herbal" data-aos="fade-right">
+          <h1 class="service-heading h-heading">Herbal Infusions</h1>
+          
+          <img src="images\herbal.jpg" class="service-img" alt="herbal"/>
+          <p class="service-info ">Aromatic and healthy beverages crafted by steeping herbs in hot water.Offer a caffeine-free alternative to traditional teas, providing a refreshing experience.  </p>
+          <a href="#pro-menu" class="service-more">View</a>
+        </div>
+    </div> 
+    <div class="order">
+      <div class="ord1">
+        <img src="images\tired.png" alt="" class="tired-vert">
+      </div>
+      <div class="ord2">
+        <h1 class="order-heading">Feeling Low? Need Energy?</h1>
+        <p class="order-content"> We bring the goodness of nature straight to you! Elevate your day with our premium, handcrafted juices that are as vibrant and unique as you are. We believe in the power of local, fresh ingredients. Our juices are made from handpicked fruits and veggies to ensure you get the best nature has to offer.</p>
+        <button class="order-btn" 
+        >place an order</button>
+      </div>
+    </div>
+    
+    </section>
+    <section id="pro-menu">
+      <h2 class="menu-heading">Menu</h2>
+      <div class="contain">
+        <div id="banner" style="overflow: hidden; display: flex; flex-direction: column; justify-content:space-around;">
+          <div class="menu-container">
+            <img src="images\menu1.webp" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>
+              <p>Apple Zing</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp70.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="menu-container">
+            <img src="images\menu2.webp" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>
+              <p>Tropical Tang</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp60.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="menu-container">
+            <img src="images\menu4.webp" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>              
+              <p>Pomegranate Elixir</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp70.00</span>
+              <br>
+              <button>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div id="banner" style="overflow: hidden; display: flex; flex-direction: column; justify-content:space-around;">
+          <div class="menu-container">
+            <img src="images\menu5.webp" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>
+              <p>Classic Mix</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp70.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="menu-container">
+            <img src="images\menu6.jpg" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>             
+              <p>Tropical Delight</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp60.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div>
+      
+          <div class="menu-container">
+            <img src="images\menu7.jpg" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>            
+              <p>Berry Bliss</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp50.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div>
+        </div> 
+        <div id="banner" style="overflow: hidden; display: flex; flex-direction: column; justify-content:space-around;">
+          <div class="menu-container">
+            <img src="images\menu8.jpg" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>             
+              <p>Berry Bliss Delight</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp80.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="menu-container">
+            <img src="images\menu9.webp" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>             
+              <p>Banana Chocolate </p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp80.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div> 
+          <div class="menu-container">
+            <img src="images\menu13.png" alt="" class="related-image">
+            <i class="fa-regular solid fa-heart com-heart"></i>
+            <div>             
+              <p>Fruity Pebbles</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp90.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div>  
+        </div>
+        <div id="banner" style="overflow: hidden; display: flex; flex-direction: column; justify-content:space-around;">
+          <div class="menu-container">
+            <img src="images\menu10.jpg" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>             
+              <p>Aloevera Burst</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp60.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div>
+          <div class="menu-container">
+            <img src="images\menu11.jpg" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>              
+              <p>Amla Quencher</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp70.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div> 
+          <div class="menu-container">
+            <img src="images\menu12.jpg" alt="" class="related-image">
+            <i class="fa-regular fa-heart com-heart"></i>
+            <div>              
+              <p>Lime Mint</p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i><br>
+              <i class="fa-solid fa-rupee-sign"></i><span>:&nbsp50.00</span><br>
+              <button>Buy Now</button>
+            </div>
+          </div>  
+        </div>
+      </div>  
+    </section>
+    <section id="contact">
+        <h2 class="contact-title">Contact</h2>
+      <div class="cnt-info">
+        <div class="cnt-detail">
+          <div class="add">
+            <div class="icn"><i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h4>Location:</h4>
+            <p>A108 Cross Street, Chennai, Tamil Nadu.</p>
+          </div>
+          <div class="mail">          
+            <div class="icn"><i class="fa-solid fa-envelope"></i>
+            </div>
+            <h4>Email:</h4>
+            <p>mehatajm.2002@gmail.com</p>
+          </div>         
+          <div class="linked-in">          
+            <div class="icn"><i class="fa-brands fa-linkedin"></i>
+            </div>
+            <h4>Linked-In:</h4>
+            <p><a href="http://linkedin.com/in/mehataj-m2003/" class="link">linkedin.com/in/mehataj-m2003/</a></p>
+          </div>
+          <div class="git">           
+            <div class="icn"><i class="fa-brands fa-github"></i>
+            </div>
+              <h4>Git-Hub:</h4>
+              <p><a href="https://github.com/Mehataj-M" class="link">github.com/Mehataj-M</a></p>
+            </div>
+          <div class="call">
+            <div class="icn"><i class="fa-solid fa-phone"></i>
+            </div>
+            <h4>Call:</h4>
+            <p>+91 9994846000</p>
+          </div>
+        </div>
+        <div class="cnt-form">
+          <form action="https://script.google.com/macros/s/AKfycbwGMgpMGPKgJuBBlA1jUNQizO80m1VyKeg6HKhu1ITiXIGXhDmSyuXeYqL0JD-k9hPkaQ/exec" method="post">
+            <h3> Share Your Feedback</h3>
+            <div>
+              <label for="name">Your Name </label>       
+              <input type="text" id="name" name="name" placeholder="Enter Your name">
+            </div>
+            <div>
+              <label for="email">Your Email </label>
+              <input type="email" id="email" name="email" placeholder="Enter Your Email">
+            </div>
+            <div>
+              <label for="msg">Feedback </label>                  
+              <textarea id="msg" name="msg" placeholder="Give Your Feedback Here" rows="3"></textarea>
+            </div>
+              <input type="submit" id="submit" name="submit" value="Send Message">
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    
+
+
+  </main>
+  <footer>
+    <div class="copyright">
+      &copy;Copyright <strong>Fruit Fiesta.</strong>
+      All Rights Reserved <br> Designed by
+      <a href="https://www.linkedin.com/in/mehataj-m2003/">Mehataj</a>
+    </div>
+
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  
+  <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- 
+      <section class="slider">   
+      <div class="slider-box">
+        <h1 class="slider-heading">
+          refresh your soul in a sip</h1>
+        <p class="slider-info">Welcome to our juice oasis, where every sip is a journey into freshness and vitality. Immerse yourself in the pure joy of nature's bounty with our handcrafted blends that promise to rejuvenate your senses. From orchard-fresh fruits to the vibrant hues of wholesome vegetables, each glass tells a story of health and happiness</p>
+        <a href="" class="slider-more">Read more</a>
+      </div>
+    </section>
+
+    <div>
+          <p>experience the journey of taste with us.</p>
+        </div>
+
+
+
+      Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
+
+<!-- <div>
+
+       <h1> Feeling tired?Need energy? </h1> 
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, suscipit ratione accusamus non itaque eius maiores nostrum repellendus. Illo eveniet ab dicta sunt dolorem eligendi dignissimos recusandae laudantium ad aliquam!
+       </p>
+       <button>Take a drink</button>
+      
+      </div>
+  <div class="service-heading">
+        
+      </div>
+   nav{
+      font-family: monospace;
+      margin-top: -32px;
+    }
+      Nourish your body, refresh your soul.get your favourite beverage within minutes with unique flavours and Sip the sunshine with every juice drop
+      
+-->
